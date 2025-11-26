@@ -25,7 +25,7 @@ except ImportError as e:
     sys.exit(f"❌ Error Library: {e}")
 
 # 1. SETUP API KEY (PASTIKAN BENAR)
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = ""
 
 # 2. LOAD PDF
 pdf_filename = "SIBI - Sistem Informasi Perbukuan Indonesia.pdf"
@@ -113,4 +113,5 @@ try:
     demo.launch(inbrowser=True)
 
 except Exception as e:
+
     print(f"\n❌ ERROR UTAMA: {e}")
